@@ -1,3 +1,14 @@
+# To Do List React App
+
+This project is made with the sole purpose to create a "To Do List", which users can add activities and description of them. 👀
+The app allow users to check their ongoing to do activities and completed ones as well. 📖🧑‍🏫👩‍🏫
+
+The app follows the CRUD operation:
+- Create and add new activities to the list
+- Read "Ongoing" and "Completed" activities
+- Update the activities to be completed
+- Delete certain activities off the list 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
