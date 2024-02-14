@@ -28,7 +28,7 @@ function App() {
   // Delete to do item off the list
   const handleDelete = (index) => {
     let deletedToDo = [...toDos];
-    deletedToDo.splice(index);
+    deletedToDo.splice(index, 1);
 
     localStorage.setItem('todolist', JSON.stringify(deletedToDo));
     // Assign new list with deleted item
