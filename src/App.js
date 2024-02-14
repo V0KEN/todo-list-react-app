@@ -72,7 +72,7 @@ function App() {
   useEffect(()=> {
     // convert local storage data to array
     let savedToDo = JSON.parse(localStorage.getItem('todolist'));
-    let savedCompletedToDo = JSON.parse(localStorage.getItem('completedToDos'));
+    let savedCompletedToDo = JSON.parse(localStorage.getItem('completeToDos'));
 
     if (savedToDo) {
       setToDos(savedToDo);
