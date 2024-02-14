@@ -58,10 +58,10 @@ function App() {
     localStorage.setItem('completeToDos', JSON.stringify(updatedCompletedArr));
   })
 
-  // Delete to do item off the list
+  // Delete completed to do item off the list
   const handleDeleteCompleted = (index) => {
     let deletedCompletedToDo = [...completedToDos];
-    deletedCompletedToDo.splice(index);
+    deletedCompletedToDo.splice(index, 1);
 
     localStorage.setItem('todolist', JSON.stringify(deletedCompletedToDo));
     // Assign new list with deleted item
